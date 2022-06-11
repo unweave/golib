@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/ghodss/yaml v1.0.0
-	github.com/unweave/golib/log v0.0.0-20220519164949-1a290af4410c
+	github.com/unweave/golib/log v0.0.0-20220611123648-59a44e99da5a
 )
 
 require (
