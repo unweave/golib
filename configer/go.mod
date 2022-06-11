@@ -1,10 +1,10 @@
-module github.com/unweave/unweave/golib/configer
+module github.com/unweave/golib/configer
 
 go 1.17
 
 require (
 	github.com/ghodss/yaml v1.0.0
-	github.com/unweave/unweave/golib/log v0.0.0-20220519164949-1a290af4410c
+	github.com/unweave/golib/log v0.0.0-20220519164949-1a290af4410c
 )
 
 require (

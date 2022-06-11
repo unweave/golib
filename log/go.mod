@@ -1,4 +1,4 @@
-module github.com/unweave/unweave/golib/log
+module github.com/unweave/golib/log
 
 go 1.17
 

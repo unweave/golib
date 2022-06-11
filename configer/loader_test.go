@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/unweave/unweave/golib/log"
+	"github.com/unweave/golib/log"
 )
 
 func TestMain(m *testing.M) {
