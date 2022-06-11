@@ -1,2 +1,3 @@
-# golib
-A collection of go packages we use internally at Unweave
+# Golib
+
+A collection of Go packages used across different Modules at Unweave. 
