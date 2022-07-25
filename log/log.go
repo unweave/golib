@@ -1,9 +1,10 @@
 package log
 
 import (
+	"io"
+
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"io"
 )
 
 var (
@@ -39,8 +40,8 @@ func NewLogger() Log {
 	}
 }
 
-func Info(msg string, args ...interface{}) {
-	Logger.pretty.Infof(msg, args...)
+func Info(args ...interface{}) {
+	Logger.pretty.Info(args...)
 }
 
 func Infof(msg string, args ...interface{}) {
@@ -59,18 +60,18 @@ func Debugf(msg string, args ...interface{}) {
 	Logger.pretty.Debugf(msg, args...)
 }
 
-func Error(msg string, args ...interface{}) {
-	Logger.pretty.Error(msg, args)
+func Error(args ...interface{}) {
+	Logger.pretty.Error(args...)
 }
 
 func Errorf(msg string, args ...interface{}) {
-	Logger.pretty.Errorf(msg, args)
+	Logger.pretty.Errorf(msg, args...)
 }
 
-func Fatal(msg string, args ...interface{}) {
-	Logger.pretty.Fatalf(msg, args)
+func Fatal(args ...interface{}) {
+	Logger.pretty.Fatal(args...)
 }
 
 func Fatalf(msg string, args ...interface{}) {
-	Logger.pretty.Fatalf(msg, args)
+	Logger.pretty.Fatalf(msg, args...)
 }
